@@ -5,11 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #match{
+            background-color:red;
+            width:400px;
+            height:450px;
+            margin:60px;
+         }
+         table,th,td{
+            border:1px solid black ;
+
+         }
+         #table1{
+            margin-left:30px;
+            background-color:yellow ;
+            border-radius: 10px;
+         }
+    </style>
 </head>
 <body>
-    <h1 id="main">Login</h1>
-    <p>hi chndu </p>
-    <ul>
+    <div id="match">
+    <h1 id="main" style="text-align:center;color:green">Time Table for2023</h1><hr>
+    <!-- <ul>
         <li>Chandu</li>
         <li>bhanu</li>
         <li>manu</li>
@@ -18,24 +35,39 @@
         <li>nithi</li>
         <li>Raju</li>
         <li>shashi</li>
-    </ol>
-    <table>
-        <th>
-            <td>cricket</td>
-            <td>vollyball</td>
-        
-        </th>
-        <tr>
-            <td>chandu</td>
-            <td>bhandu</td>
+    </ol> -->
+    <table id="table1">
+        <tr id="head">
+            <th style="padding:10px">Sl.No</th>
+            <th style="padding:0px 20px">Team1</th>
+            <th style="padding:0px 20px;">Team2</th>
+            <th style="padding:0px 20px">Time</th>
         </tr>
         <tr>
-            <td>chand1</td>
-            <td>bhand1</td>
+            <td>01</td>
+            <td>RCB</td>
+            <td>CSK</td>
+            <td>2.00pm</td>
         </tr>
-        
+        <tr>
+            <td>02</td>
+            <td>MI</td>
+            <td>RR</td>
+            <td>9.00pm</td>
         </tr>
-    </td>
+        <tr>
+            <td>03</td>
+            <td>RCB</td>
+            <td>GL</td>
+            <td>11.am</td>
+        </tr>
+        <tr>
+            <td>04</td>
+            <td>RCB</td>
+            <td>SRH</td>
+            <td>2.00pm</td>
+        </tr>
     </table>
+    </div>
 </body>
 </html>
